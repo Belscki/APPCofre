@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Cofre</title>
+    <link rel="stylesheet" href="../assets/cofre.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../scripts/cofre.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Detalhes do Cofre</h1>
+    </header>
+    <main>
+        <div class="container">
+            <button onclick="Voltar()">Voltar</button>
+            <h2 id="cofre-nome">Mudanças no Cofre</h2>
+            <p id="cofre-saldo" class="saldo-cofre">Saldo Atual: R$ 0,00</p>
+            <table id="mudancas" class="tabela-mudancas">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Tipo</th>
+                        <th>Valor</th>
+                        <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </main>
+    
+</body>
+</html>
