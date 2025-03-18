@@ -1,6 +1,6 @@
 # APPCofre
 
-Aplicativo feito com nodeJS utilizando "Esqueci vou ter que olhar o arquivo de novo" para a compilação. 
+Aplicativo feito com nodeJS utilizando "electron" para a compilação. 
 O mesmo em questão faz a utilização do CofreAPI (https://github.com/Belscki/CofreAPI)
 
 Aplicações feitas para uso diario e proprio.
